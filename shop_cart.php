@@ -5,11 +5,10 @@ include "mt_dao_animals.php";
 $fw = new MtF();
 $fw->check_login();
 
+
+// カタログのリスト取得
 $dao = new DaoAnimals();
 $rslt = $dao->select_all();
-
-//if ($rslt == 1) {
-
 if ($rslt) {
     $_SESSION['message'] = "";
 } else {
@@ -17,6 +16,7 @@ if ($rslt) {
 };
 
 
-include "parts_result_search.php";
+// カタログ表示
+include "shop_catalog_list.php";
 ?>
 

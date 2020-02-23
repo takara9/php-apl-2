@@ -20,9 +20,7 @@ if ($rslt == null) {
         print "<td align=\"center\">".$row['id']."</td>";
         print "<td>".$row['name']."</td>";
         print "<td>";
-        print "<input type='button' name='edt' value='編集' onClick='line_menu_action(1,".$row['id'].")'>";
-        print "<input type='button' name='del' value='削除' onClick='line_menu_action(2,".$row['id'].")'>";
-        print "<input type='button' name='dta' value='詳細' onClick='line_menu_action(3,".$row['id'].")'>";
+        print "<input type='button' name='edt' value='かごへ' onClick='line_menu_action(4,".$row['id'].")'>";
         print "</td>";
         print "</tr>";
     }

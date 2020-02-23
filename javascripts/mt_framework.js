@@ -34,6 +34,7 @@ function line_menu_action(act,id){
 	    alert('キャンセルされました'); 
 	}
     } else if (act == 3) {
+	// 詳細表示
         var url = "view_detail.php";
         var data = {'animal_id' : id};
         
