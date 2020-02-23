@@ -8,6 +8,15 @@
       <a href="form_search.php">検索</a>
     </div>
   </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">買物カゴ</button>
+    <div class="dropdown-content">
+      <a href="">ショッピング</a>          
+      <a href="">カゴの内容確認</a>
+    </div>
+  </div>
+
   <div class="dropdown">
     <button class="dropbtn">模擬エラー発生</button>
     <div class="dropdown-content">
