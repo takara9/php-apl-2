@@ -7,8 +7,7 @@ Class DaoAnimals
     // Constructor
     function __construct() {
         $this->dsn = "mysql:host=mysql;port=3306;dbname=testdb";
-        //$this->dbh = new PDO($this->dsn, getenv('DB_USER'),getenv('DB_PASSWORD'));
-	$this->dbh = new PDO($this->dsn, 'dev', 'dev');
+        $this->dbh = new PDO($this->dsn, getenv('DB_USER'),getenv('DB_PASSWORD'));
     }
 
     // キーで一件取得
