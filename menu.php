@@ -1,7 +1,7 @@
 <div class="container">
   <a href="index.php">トップ</a>
   <div class="dropdown">
-    <button class="dropbtn">テーブル操作</button>
+    <button class="dropbtn">RDBテーブル操作</button>
     <div class="dropdown-content">
       <a href="do_select_all.php">リスト</a>          
       <a href="form_create_data.php">登録</a>
@@ -14,6 +14,7 @@
       <a href="">存在なしエラー</a>          
       <a href="">アプリ内エラー</a>
       <a href="">ランタイムエラー</a>
+      <a href="">DBアクセスエラー</a>      
     </div>
   </div>
 
